@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+.jumbotron{
+    padding-top: 6rem;
+    background-color: #EADBC8;
+}
+.jumbotron h1, h4,p{
+    color: #0F2C59;
+}
+.jumbotron p{
+    color: #0F2C59;
+}
+
+#projects{
+    background-color: #EADBC8;
+
+}
+
+footer{
+    background-color: #0F2C59;
+    color: white;
+}
+
+section{
+    padding-top: 5rem;
+}
