@@ -4,7 +4,7 @@
     padding-top: 6rem;
     background-color: #EADBC8;
 }
-.jumbotron h1, h4,p{
+.jumbotron h1,h2,   p{
     color: #0F2C59;
 }
 .jumbotron p{
@@ -13,7 +13,6 @@
 
 #projects{
     background-color: #EADBC8;
-
 }
 
 footer{
@@ -23,4 +22,104 @@ footer{
 
 section{
     padding-top: 5rem;
+}
+
+.gallery-img{
+    width: 100%;
+}
+
+#gallery .row > *{
+    padding: 0;
+}
+
+
+/* Disney Section */
+.disney-box{
+    background-color: #DAC0A3;
+    position: relative;
+    border-radius: 10px;
+    height: 500px;
+    /* untuk mengatur kedalaman elemen dengan Tilt js */
+    transform-style: preserve-3d;
+}
+
+.disney-box::before{
+    content: 'Disney';
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    top: 40px;
+    left: 28%;
+    transform: rotate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.disney-box:hover::before{
+    opacity: 0.5;
+}
+
+.disney-box::after{
+    content: 'Pixar';
+    position: absolute;
+    color: white;
+    font-size: 3.3em;
+    font-weight: bold;
+    font-style: italic;
+    top: 370px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.disney-box:hover::after{
+
+    opacity: 0.5;
+}
+
+.disney-name{
+    top: 0;
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    opacity: 0;
+    transform: translate3d(0, 0, 50px);
+    transition: 0.5s;
+}
+
+.disney-box:hover .disney-name{
+    top: 20px;
+    opacity: 1;
+}
+
+.disney-detail-button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate3d(-50%, 0, 80px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.disney-box:hover .disney-detail-button{
+    opacity: 1;
+    bottom: 20px;
+}
+
+.disney-img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 100px);
+    max-width: 200px;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.disney-box:hover .disney-img{
+    transform: translate3d(-50%, -50%, 100px) scale(1.2);
 }

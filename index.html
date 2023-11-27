@@ -9,8 +9,12 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -22,7 +26,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #0F2C59;">
         <div class="container">
-            <a class="navbar-brand" href="#">Orin Zahara</a>
+            <a class="navbar-brand" href="#">Port<span style="color: #DAC0A3;">orin</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -50,15 +54,15 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-        <img src="img/Mei.jpg" alt="Mei" width="200" class="rounded-circle img-thumbnail">
+        <img src="img/card/Mei.jpg" alt="Mei" width="200" class="rounded-circle img-thumbnail" data-aos="fade-in">
         <h1 class="display-4 fw-bold">Orin Zahara</h1>
-        <h4 class="fw-normal">Front End Developer</h2>
-            <p class="lead fs-6">Student SMK Telkom Malang</p>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#ffff" fill-opacity="10"
-                    d="M0,64L40,85.3C80,107,160,149,240,154.7C320,160,400,128,480,144C560,160,640,224,720,218.7C800,213,880,139,960,122.7C1040,107,1120,149,1200,165.3C1280,181,1360,171,1400,165.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-                </path>
-            </svg>
+        <p class=" lead1 fs-6"></p>
+        <!-- <p class="lead2 fw-light"></p> -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffff" fill-opacity="10"
+                d="M0,64L40,85.3C80,107,160,149,240,154.7C320,160,400,128,480,144C560,160,640,224,720,218.7C800,213,880,139,960,122.7C1040,107,1120,149,1200,165.3C1280,181,1360,171,1400,165.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
     </section>
     <!-- Akhir Jumbotron -->
 
@@ -71,13 +75,13 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, sit vel quam dolorum voluptas
-                        dignissimos porro obcaecati? Maiores, voluptatum! Atque.
-                    </p>
+                <div class="col-md-4" data-aos="fade-right" data-aos-delay="200">
+                    Hai aku Orin Zahara bisa dipanggil Oca. Umurku di tahun 2023 17 tahun, yang lahir di Blitar
+                    tanggal 15 Juli 2006. Aku siswa SMK Telkom Malang angkatan 30 kelas 12 RPL 1. Saat ini aku magang
+                    di PT Alfahuma, Malang. Tahun depan aku kuliah di Binus Aamiin. Tapi aku sekarang pengen sekolah
+                    wir!!!
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left">
                     Hi i'm a 17 years old girl named Orin Zahara or can be called Oca. I was
                     born in Blitar, on July 15 2006. I live in Blitar, East Java. I am a student of
                     Telkom Malang Vocational High School. Currently in grade 12 RPL 1.
@@ -102,52 +106,91 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/Abby1.jpg" class="card-img-top" alt="Project1" height="500">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
+                        <img src="img/card/Abby1.jpg" class="card-img-top" alt="Project1" height="500">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Abby adalah sosok yang begitu energik dan bersemangat memengaruhi
+                                orang-orang di sekitarnya.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/Miriam1.jpg" class="card-img-top" alt="Project2" height="500">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+                        <img src="img/card/Miriam1.jpg" class="card-img-top" alt="Project2" height="500">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Miriam adalah sosok yang selalu menghibur Mei saat sedih dan dia sangat
+                                setia meski sudah dikhianati.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/Priya1.jpg" class="card-img-top" alt="Project 3 " height="500">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+                        <img src="img/card/Priya1.jpg" class="card-img-top" alt="Project 3 " height="500">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Priya adalah teman Mei Lee yang memiliki karakter yang baik dan sangat
+                                suportif meski bersikap datar.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/Ara.jpeg" class="card-img-top" alt="Project 4 " height="500">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+                        <img src="img/card/Ara.jpeg" class="card-img-top" alt="Project 4 " height="500">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Nismara Syahda Nabilah Ramadhani yang biasa dipanggil Ara atau Rawr.
+                                Dia member baru di Turning Red.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/Miriam.jpg" class="card-img-top" alt="Project 5" height="500">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+                        <img src="img/card/red.jpg" class="card-img-top" alt="Project 5" height="500">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Turning Red adalah film animasi fantasi remaja yang diproduksi Walt
+                                Disney Pictures dan Pixar Animation Studios serta
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Tilt JS -->
+        <section id="disney">
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>Disney Pixar</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 mb-3">
+                            <div class="disney-box">
+                                <h4 class="disney-name">Turning Red</h4>
+                                <img src="img/removebg/red-removebg.png" alt="turning" class="disney-img">
+                                <a href="#" class="btn btn-light disney-detail-button">Show Details</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-3">
+                            <div class="disney-box">
+                                <h4 class="disney-name">Moana</h4>
+                                <img src="img/removebg/moana-removebg-preview.png" alt="moana" class="disney-img">
+                                <a href="#" class="btn btn-light disney-detail-button">Show Details</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-3">
+                            <div class="disney-box">
+                                <h4 class="disney-name">Elemantal</h4>
+                                <img src="img/removebg/elemental-removebg-preview.png" alt="turning" class="disney-img">
+                                <a href="#" class="btn btn-light disney-detail-button">Show Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffff" fill-opacity="10"
                 d="M0,224L26.7,229.3C53.3,235,107,245,160,229.3C213.3,213,267,171,320,144C373.3,117,427,107,480,117.3C533.3,128,587,160,640,170.7C693.3,181,747,171,800,186.7C853.3,203,907,245,960,234.7C1013.3,224,1067,160,1120,160C1173.3,160,1227,224,1280,250.7C1333.3,277,1387,267,1413,261.3L1440,256L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
@@ -155,6 +198,70 @@
         </svg>
     </section>
     <!-- Akhir Project -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Abby.png" alt="gambar1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Mariam.png" alt="gambar2" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Mei.png" alt="gambar3" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Priya.png" alt="gambar4" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Abby.png" alt="gambar5" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Mariam.png" alt="gambar6" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Mei.png" alt="gambar7" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Priya.png" alt="gambar8" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Abby.png" alt="gambar9" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbs/Mariam.png" alt="gambar10" class="img-fluid gallery-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -201,12 +308,15 @@
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="text-white text-center pb-3" style="color: white;">
-        <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/rinn.zh"
-                class="text-white fw-bold">Orin Zahara</a>
+    <footer class="text-white text-center pb-3">
+        <p style="color: white;">Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a
+                href="https://www.instagram.com/rinn.zh" class="text-white fw-bold">Orin Zahara</a>
         </p>
     </footer>
     <!-- Akhir Footer -->
+
+
+
 
 
     <!-- script bootstrap5 -->
@@ -214,13 +324,62 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+    <!-- script aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const galleryImage = document.querySelectorAll('.gallery-img')
+
+        galleryImage.forEach((img, i) => {
+            img.dataset.aos = 'fade-down'
+            img.dataset.aosDelay = i * 100
+            img.dataset.aosDuration = 1000
+        });
+
+        AOS.init({
+            once: false,
+            duration: 2000,
+        });
+    </script>
+
+    <!-- script gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.lead1', {
+            duration: 1.5,
+            delay: 1,
+            text: 'Front End Developer | TSM 30',
+        })
+        // gsap.to('.lead2', {
+        //     duration: 1.5,
+        //     delay: 1,
+        //     text: 'Student SMK Telkom Malang',
+        // })
+        gsap.from(".jumbotron img", {
+            duration: 1,
+            rotation: 180,
+        });
+        gsap.from(".navbar", {
+            duration: 2,
+            y: -20,
+            opacity: 0,
+            ease: "elastic.out(1,0.3)",
+        })
+        gsap.from(".display-4", {
+            duration: 1,
+            x: -50,
+            opacity: 0,
+            ease: "circ.Out",
+        })
+    </script>
 
     <!-- script deploy spreedsheet -->
     <script>
         // untuk mengambil link deploy sheet 
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyJIWEDxd0ylZ3UYqYgv4z5ERoWW-CWtkOVEZihXeigzhC4XI_-SkFeZzbIXxC3Y5dd/exec'
         // nama form = megambil element form
-        const form = document.forms['wpu-contact-form']; 
+        const form = document.forms['wpu-contact-form'];
         const btnSubmit = document.querySelector('.btn-submit');
         const btnLoading = document.querySelector('.btn-loading');
         const myAlert = document.querySelector('.my-alert');
@@ -243,11 +402,20 @@
                     myAlert.classList.toggle('d-none');
 
                     // reset form
-                    form.reset();   
+                    form.reset();
                     console.log('Success!', response)
                 })
                 .catch(error => console.error('Error!', error.message))
-        })
+        });
+    </script>
+
+    <!-- Tilt JS menjadi elemen 3d -->
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".disney-box"), {
+            max: 25,
+            speed: 400,
+        });
     </script>
 </body>
 
